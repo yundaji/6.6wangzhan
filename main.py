@@ -9,8 +9,8 @@ from telegram import Bot
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-SITE_URL = "https://www.pexels.com/videos/?utm_source=chatgpt.com"
-BASE_URL = "https://www.pexels.com/"
+SITE_URL = "https://video.sogou.com/list?listTab=film"
+BASE_URL = "https://video.sogou.com"
 
 SEEN_FILE = "seen_videos.json"
 MAX_POSTS = 3
