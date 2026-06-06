@@ -9,8 +9,8 @@ from telegram import Bot
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-SITE_URL = "https://634.tv/index.php/vod/show/id/23.html"
-BASE_URL = "https://634.tv"
+SITE_URL = "https://www.1905.com/list-p-catid-690.html"
+BASE_URL = "https://www.1905.com"
 
 SEEN_FILE = "seen_videos.json"
 MAX_POSTS = 3
